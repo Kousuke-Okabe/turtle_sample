@@ -1,0 +1,10 @@
+<launch>
+    <rosparam command="load" file="$(find turtle_control)/config/turtle_control.yaml" />
+    
+    <node
+        pkg="turtle_control"
+        type="turtle_control"
+        name="turtle_control"
+        output="screen">
+    </node>
+</launch>
