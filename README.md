@@ -1,5 +1,9 @@
 # turtle_sample
 
+# コンパイル
+    Packegeフォルダ内で実行
+    $ catkin build --this
+
 # 実行
     ターミナル１
     $ roscore
