@@ -5,6 +5,7 @@
     $ catkin build --this
 
 # 実行
+1. nodeを直接起動
     ターミナル１
     $ roscore
 
@@ -13,10 +14,14 @@
 
     ターミナル３
     $ rosrus (パッケージ名) (ノード名)
+2. launchファイルを用いて起動
+    $ roslaunch (パッケージ名) (パッケージ名).launch
 
 # パッケージ確認順序
     1. turtle_publish
     2. turtle_subscribe
+    3. turtle_slient
+    4. turtle_control
 
 # パッケージ
 1. パッケージ作成
