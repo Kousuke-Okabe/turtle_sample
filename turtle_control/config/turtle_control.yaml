@@ -1,5 +1,5 @@
 
 turtle:
   K_pose: 0.5
-  ref_x: 3.0
-  ref_y: 3.0
+  ref_x: 5.0
+  ref_y: 1.0

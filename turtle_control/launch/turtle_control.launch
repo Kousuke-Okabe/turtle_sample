@@ -1,6 +1,15 @@
 <launch>
+    <!-- パラメータサーバへパラメータの登録 -->
     <rosparam command="load" file="$(find turtle_control)/config/turtle_control.yaml" />
     
+    <!-- ノード起動 -->
+    <node
+        pkg="turtlesim"
+        type="turtlesim_node"
+        name="turtlesim_node"
+        output="log">
+    </node>
+
     <node
         pkg="turtle_control"
         type="turtle_control"
