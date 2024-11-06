@@ -13,28 +13,28 @@ Packegeフォルダ内で実行
 >$ rosrun turtlesim turtlesim_node
 >
 ターミナル３
-> $ rosrus (パッケージ名) (ノード名)
+> $ rosrus ${パッケージ名} ${ノード名}
 
 ### launchファイルを用いて起動
-> $ roslaunch (パッケージ名) (パッケージ名).launch
+> $ roslaunch ${パッケージ名} ${パッケージ名}.launch
 
 # パッケージ確認順序
 1. turtle_publish
-2. turtle_subscribe
-3. turtle_slient
-4. turtle_control
+3. turtle_subscribe
+4. turtle_slient
+5. turtle_control
 
 ## パッケージ
 ### パッケージ作成
-> $ catkin_create_pkc (パッケージ名)
+> $ catkin_create_pkg　${パッケージ名}
 
 ### フォルダ構造
-*パッケージ
-    *config
-        *(パッケージ名).yaml
-    *launch
-        *(パッケージ名).launch
-    *src
-        *(パッケージ名).cpp
-    *CMakeLists.txt
-    *package.xml
+* パッケージ名
+    * config
+        * ${パッケージ名}.yaml
+    * launch
+        * ${パッケージ名}.launch
+    * src
+        * ${パッケージ名}.cpp
+    * CMakeLists.txt
+    * package.xml
