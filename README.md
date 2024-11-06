@@ -26,7 +26,7 @@ Packegeフォルダ内で実行
 
 ## パッケージ
 ### パッケージ作成
-> $ catkin_create_pkg　${パッケージ名}
+> $ catkin_create_pkg ${パッケージ名}
 
 ### フォルダ構造
 * パッケージ名
